@@ -10,16 +10,20 @@
 <!--Minha primeira ideia/vontade que tive quando comecei aprender. Ainda está sem JS-->
 <body>
     <main>
-        <section class="section1">
-            <h1>Sign In</h1>
-            <h3>Welcome Back</h3>
-            <input type="email" name="email" id="email" placeholder="E-mail or Username">
-            <input type="password" name="password" id="password" placeholder="Password">
-            <p class="check"><input type="checkbox" name="remember-me" id="check">Remember me</p>
-        </section>
-        <section class="section2">
-            <input type="button" value="Connect" class="button" onclick="button()">
-        </section>
+        <form action="" method="post">
+            <section class="section1">
+                <h1>Sign In</h1>
+                <h3>Welcome Back</h3>
+            
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="password" name="password" id="password" placeholder="Password">
+                <p class="check"><input type="checkbox" name="remember-me" id="check">Remember me</p>
+            
+            </section>
+            <section class="section2">
+                <input type="submit" value="Connect" class="button" onclick="button()">
+            </section>
+        </form>
 
         <div class="linha">
             <span><a href="#"></a><img src="imagens/google.svg" alt="google"></span>
